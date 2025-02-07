@@ -1,0 +1,56 @@
+@font-face {
+    font-family: pcsenior;
+    src: url(../Fonts/pcsenior.ttf) format("opentype");;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.window{
+    padding-top: 112px;
+    text-align: center;
+}
+
+
+
+body{
+    /*background-image: url(../Images/background_art.png); */
+    background-color:  #eeefef;  
+}
+
+#smiski{     
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.topnav{
+    background-color: #0a30b9;
+    height: 35px;
+    width: 100%;
+    font-size: 14px;
+    text-align: end;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: pcsenior;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 7px;
+}
+
+
+#navs{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+h2{
+    padding-top:100px;
+}
+
+
+
+
+

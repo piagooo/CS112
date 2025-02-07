@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+
+<html>
+        <head>
+            <!-- CSS Sheet-->
+            <link rel="stylesheet" href="CSS/styles_contact.css">
+
+
+            <!--Google Maps API SRC-->
+            <script 
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmrqU1fAJSb7FAZDjWplEM3CUcqEIv96U&callback=initMap&v=weekly&solution_channel=GMP_CCS_geolocation_v2" 
+                defer>
+            </script>
+            
+            <!--JS script for map-->
+            <script src="JS/map.js"></script>
+
+             <!-- EmailJS script code-->
+            <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+            </script>
+
+            <script type="text/javascript">
+                (function(){
+                    emailjs.init({
+                    publicKey: "I04DKm1VfutbJauvd",
+                    });
+                })();
+            </script>
+        
+
+            <!--JS code src for EmailJS-->
+           <script src="JS/form_fill.js"></script>
+
+
+            <!--title name-->
+            <title> Contact Us </title>
+
+
+        </head> 
+
+       
+
+    
+        <!--Navbar creation with hotlinks to Projects/Home-->
+
+        <div class="topnav">
+            <a href="service.html"> Projects </a>
+            <a href="index.html"> Home </a>
+        </div>
+
+    
+        <body>
+
+        <!--Smiski Image-->
+        <div>
+            <img src = "Images/contact_me.JPG" alt = "smiski reaches out"  
+                width = "400" 
+                height = "400"/>
+        </div>
+
+       
+        <!--Form for data input
+            Name
+            Email
+            Cell
+            userID
+        -->
+
+        <section id="contact" class="container">
+            <h2> Contact Me </h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email"> Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="user_input"> User</label>
+                    <input type="text" id="user_input" name="user_input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cellphone"> Cellphone</label>
+                    <input type="text" id="cellphone" name="cellphone" required>
+                </div>
+
+                
+                <button type="submit" onclick="sendMail()"> Send</button>
+
+            </form>
+        </section>  
+          
+        <div id="map"></div>
+        
+       
+        </body>      
+</html>

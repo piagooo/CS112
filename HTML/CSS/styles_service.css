@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(133, 74, 49);
+
+}
+
+.topnav{
+    background-color: rgb(252, 250, 250);
+    overflow: hidden;
+    position: fixed;
+    top:0px;
+    right:5px;
+    }
+
+#project:hover {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#public_art:hover {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#stories:hover {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#read:hover {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#send_story:hover {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+}
+

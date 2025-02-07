@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="login.js"></script>
+        <title> Secret Login</title>
+        <link rel="stylesheet" href="https://unpkg.com/98.css" />
+        <link rel="stylesheet" href="CSS/styles.css">
+       <script>
+           function openWin() {
+              window.open("secret.html");
+        }
+       </script>
+    </head>
+
+    <h2> Login or Register </h2>
+
+    <div id="navs" class="topnav">
+        <a href="service.html"> Services </a>
+        <a href="contact.html"> Contact </a>
+        <a href="index.html"> Home </a>
+        <a href="ansi-art.html">Hello</a>
+        <a href="login.html">Login</a>
+    </div>    
+
+
+
+    <form>
+        <input type="button" value="Open Window" onclick="openWin()">
+    </form>
+
+
+<form>
+        <div>
+            <label for="username"> Username </label>
+            <input type="text" id="username" name="username" required>
+        </div>
+
+        <div>
+            <label for="password"> Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+     
+</form>
+
+
+
+
+</html>
